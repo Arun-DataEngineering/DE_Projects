@@ -1,0 +1,6 @@
+Connected to PostgreSQL Database Successfully 2026-06-18 22:19:04,375 DEBUG
+CSV read Successfully 2026-06-18 22:19:04,378 DEBUG
+Duplicates Removed 2026-06-18 22:19:04,381 INFO
+Null Values Removed 2026-06-18 22:19:04,384 DEBUG
+CSV Report Generated 2026-06-18 22:19:04,387 INFO
+All Process Finished 2026-06-18 22:19:04,413 INFO

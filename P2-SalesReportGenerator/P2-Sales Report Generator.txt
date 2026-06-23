@@ -1,0 +1,37 @@
+Project Overview
+
+
+The Sales Report Generator automates the process of generating business reports from sales data stored in PostgreSQL. 
+The pipeline extracts sales records from the database, performs aggregations using Pandas, generates daily and monthly sales reports,
+identifies top-selling products, and exports the reports as CSV files.
+This project simulates a common reporting workflow used by Data Engineers and Data Analysts where raw transactional data is transformed into business-ready reports.
+
+End-to-End Architecture
+
+PostgreSQL Sales Table
+           │
+           ▼
+Read Sales Data
+           │
+           ▼
+Load Into Pandas
+           │
+           ▼
+Generate Reports
+           │
+           ├── Daily Sales
+           ├── Monthly Sales
+           ├── Product-wise Sales
+           └── Top Product
+           │
+           ▼
+Export CSV Files
+           │
+           ▼
+Upload Reports To AWS S3
+           │
+           ▼
+Generate Logs
+           │
+           ▼
+Pipeline Completed  

@@ -1,0 +1,7 @@
+
+
+DB_USER = "****"
+DB_PASSWORD = "****"
+DB_HOST = "localhost"
+DB_PORT = "****"
+DB_NAME = "companydb"
